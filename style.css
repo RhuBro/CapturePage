@@ -1,0 +1,114 @@
+/*Zerando a margem e o espaçamento/padding de todos os elementos.*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 400px) {
+}
+
+/*Formatando a fonte padrão de todo o body e aplicando a cor de fundo.*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+/*Ajustando o tamanho da fonte do titulo*/
+.title{
+    font-size: 26px;
+}
+/*Formatando a section, adicionando a imagem de fundo e deixando - a coberta em todo o espaço definido.*/
+section{
+    padding: 20px;
+    background-image: url(images/Roupas.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+/*Dando tamanho ao cabeçalho e deixando - o centralizado com o auxílio da margem automática.*/
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+/*Aplicando alinhamento e estilo ao cabeçalho.*/
+header{
+
+    background-color:blueviolet;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+/*Alterando as propriedades e estilo da classe aplicada na primeira div da section do conteúdo do formulário.*/
+.formcontainer{
+    max-width: 230px;
+    background-color: rgb(207, 165, 247);
+    padding: 20px;
+    float: right;
+}
+/*Alterando o tamanhdo da fonte do <h2>*/
+h2{
+    font-size: 16px;
+    font-style: oblique;
+}
+/*Colocando margin-botton em uma classe específica do <h2> e <p>*/
+.mb{
+margin-bottom: 15px;
+}
+/*Adicionando estilo e propriedades em diversos objetos da div/form*/
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+/*Para selecionar apenas o tipo de input no qual se quer mudar o estilo*/
+input[type="submit"]{
+    color:white; 
+    font-weight: bold;
+    background-color: blueviolet;
+
+}
+select{
+/*Para mudar a aparência do arrow padrão e atualizar em todos os navegadores (Mozila, safari, chrome etc).*/    
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+/*Para inserir a img do arrow e fazê - la não repetir*/    
+    background-image: url(images/arrow.jpg);
+    background-repeat: no-repeat;
+/*Para direcionar o arrow para o canto direito da section em X e na posição centralizada em Y*/
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+/*Colocando cor de fundo no rodapé, ajustando o paddind e centralizando os elementos.*/
+footer{
+    background-color: blueviolet;
+    padding: 40px;
+    text-align: center;
+}
+/*Ajustando o tamanho da img do dev, a lagura já puxa a altura em mesma proporção.*/
+.picture{
+    width: 180px;
+}
+/*Alterando o display para inline-block, definindo a margem esquerda para 40px e diminuindo a largura da div de texto para 40%*/
+.description{
+    color: black;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+/*Alterando a margem inferiro dos elementos dentro da classe description, semelhante ao processo realizado na linha 51*/
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+/*Aumentando a fonte do h3 em referência a classe description.*/
+.description h3{
+    font-size: 24px;
+}
+
+/*Definindo o tamanho e margem para os icones das redes sociais.*/
+.social{
+    margin-top: 10px;
+    width: 35px;
+    padding: 5px;
+}
