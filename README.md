@@ -6,5 +6,5 @@ Trata - se de uma página de captura para prospecção e fidelização de client
 
 Feito em Html e Css, me deu uma boa bagagem nas tecnologias utilizadas, espero que ajude quem está começando tbm!
 
-PS: O arquivo index está repleto de comentários pessoais sobre cada etapa do código.
+PS: O arquivo CSS está repleto de comentários pessoais sobre cada etapa do código.
 
